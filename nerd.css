@@ -1,0 +1,12 @@
+html {
+height: 100%;
+}
+body { font-family:courier,monospace; color:black; background-color:black}
+h1 { font-size:25px; margin-top:0px; margin-bottom:0px; }
+p,a,pre { color:lawngreen; 
+text-decoration: none;
+text-underline: none;}
+a:hover { color:red; }
+.header { position:fixed; top:0px; left:0px; background-image: linear-gradient(to left, black 0%, lawngreen 10%, lawngreen 90%, black 100%); text-align: center; width:100% }
+.content { margin-top: 50px}
+.footer { position:fixed; bottom:0px; left:0px; background-image: linear-gradient(to left, lawngreen 0%, black 10%, black 90%, lawngreen 100%); text-align: center; width:100%; color:lawngreen; }
