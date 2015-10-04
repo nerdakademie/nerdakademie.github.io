@@ -16,7 +16,19 @@ main {
     left: -5px;
     width: 0px;
     height: 0px;
+        z-index: 999;
 }
 .monitor{
   margin-left:350px;
+}
+
+#c{
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: -999;
+}
+
+#viewPort{
+    z-index: 999;
 }
