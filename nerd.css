@@ -31,7 +31,8 @@ a {
 .header {
     position: absolute;
     top: 0;
-    left: 44%;
+    left: 0;
+    width:  100%;
     font-size: 25px;
     color: lawngreen;
     text-align: center;
@@ -40,7 +41,8 @@ a {
 .footer{
     position: absolute;
     bottom: 0;
-    left: 42.5%;
+    left: 0;
+    width: 100%;
     font-size: 25px;
     color: lawngreen;
     text-align: center;
