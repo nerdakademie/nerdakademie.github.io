@@ -1,16 +1,13 @@
 body, html {
     margin: 0px;
-    background-color: black;
 }
 
 main {
     position: absolute;
-    background-color: #000;
-
-    top:0px;
-    left:0px;
-    width:1024px;
-    height:768px;
+    top:90px;
+    left:450px;
+    width:676px;
+    height:676px;
 }
 
 #mobileInput {
@@ -21,5 +18,5 @@ main {
     height: 0px;
 }
 .monitor{
-  background-color:black;
+  margin-left:350px;
 }
