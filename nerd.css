@@ -1,12 +1,25 @@
-html {
-height: 100%;
+body, html {
+    margin: 0px;
+    background-color: black;
 }
-body { font-family:courier,monospace; color:black; background-color:black}
-h1 { font-size:25px; margin-top:0px; margin-bottom:0px; }
-p,a,pre { color:lawngreen; 
-text-decoration: none;
-text-underline: none;}
-a:hover { color:red; }
-.header { position:fixed; top:0px; left:0px; background-image: linear-gradient(to left, black 0%, lawngreen 10%, lawngreen 90%, black 100%); text-align: center; width:100% }
-.content { margin-top: 50px}
-.footer { position:fixed; bottom:0px; left:0px; background-image: linear-gradient(to left, lawngreen 0%, black 10%, black 90%, lawngreen 100%); text-align: center; width:100%; color:lawngreen; }
+
+main {
+    position: absolute;
+    background-color: #000;
+
+    top:0px;
+    left:0px;
+    width:1024px;
+    height:768px;
+}
+
+#mobileInput {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 0px;
+    height: 0px;
+}
+.monitor{
+  background-color:black;
+}
