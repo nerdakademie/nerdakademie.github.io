@@ -82,6 +82,7 @@
                     case "dir":
                         dostoy.println("contact.exe")
                         dostoy.println("getsource.exe")
+                        dostoy.println("letschat.exe")
                         dostoy.println();
 
                         break;
@@ -96,6 +97,11 @@
                         dostoy.println(" Redirecting ...");
                         window.location = "https://github.com/nerdakademie/nerdakademie.github.io";
                         break;
+                    case "letschat.exe"
+                        dostoy.setCursor(false);
+                        dostoy.setPrompt("");
+                        dostoy.println(" Redirecting ...");
+                        window.location = "https://letschat.nerdakademie.xyz";
 
                     default:
                         dostoy.println("Bad command or filename")
