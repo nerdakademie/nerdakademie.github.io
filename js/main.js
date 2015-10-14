@@ -102,6 +102,7 @@
                         dostoy.setPrompt("");
                         dostoy.println(" Redirecting ...");
                         window.location = "https://letschat.nerdakademie.xyz";
+                        break;
 
                     default:
                         dostoy.println("Bad command or filename")
