@@ -97,7 +97,7 @@
                         dostoy.println(" Redirecting ...");
                         window.location = "https://github.com/nerdakademie/nerdakademie.github.io";
                         break;
-                    case "letschat.exe"
+                    case "letschat.exe":
                         dostoy.setCursor(false);
                         dostoy.setPrompt("");
                         dostoy.println(" Redirecting ...");
