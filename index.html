@@ -54,8 +54,7 @@
             Wir benutzen <a href="https://rocketchat.nerdakademie.xyz">Rocket.Chat</a> zur Kommunikation.<br/>
             Besucht auch unser <a href="https://github.com/nerdakademie">Github Repository</a>.
           </p>
-            <h3>Nächstes Treffen in <span id="countdown"></span></h3>
-            <h3 id=date></h3>
+            <h3>Nächstes Treffen in <span id="countdown"></span><br><span id="date"></span></h3>
           </div>
         </div>
       </div>
@@ -63,7 +62,7 @@
   </div>
   <script type="text/javascript">
     var nextMeeting ="2016/05/19 17:30:00";
-    $("#date").text("Am" + nextMeeting);
+    $("#date").text("Am " + nextMeeting);
     $("#countdown")
     .countdown(nextMeeting, function(event) {
       $(this).text(
