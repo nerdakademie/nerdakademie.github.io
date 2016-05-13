@@ -63,7 +63,7 @@
   </div>
   <script type="text/javascript">
     var nextMeeting ="2016/05/19 17:30:00";
-    var formattedDate = moment(new Date(nextMeeting)).lang("de").format('dddd, [den] DD.MM.YYYY [um] HH:mm');
+    var formattedDate = moment(new Date(nextMeeting)).locale("de").format('dddd, [den] DD.MM.YYYY [um] HH:mm');
     $("#date").text("Am " + formattedDate);
     $("#countdown")
     .countdown(nextMeeting, function(event) {
