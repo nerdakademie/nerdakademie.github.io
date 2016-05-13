@@ -17,6 +17,7 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+  <script src="http://momentjs.com/downloads/moment.min.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -62,7 +63,8 @@
   </div>
   <script type="text/javascript">
     var nextMeeting ="2016/05/19 17:30:00";
-    $("#date").text("Am " + nextMeeting);
+    var formattedDate = moment(new Date(nextMeeting)).format('DD.MM.YYYY HH:mm');
+    $("#date").text("Am " + formattedDate);
     $("#countdown")
     .countdown(nextMeeting, function(event) {
       $(this).text(
